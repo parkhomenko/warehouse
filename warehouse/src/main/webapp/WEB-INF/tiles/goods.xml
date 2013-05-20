@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+       
+<tiles-definitions>
+    <definition name="goods" extends="base.definition">
+        <put-attribute name="content" value="/WEB-INF/jsp/general/goods.jsp" />
+    </definition>
+    
+    <definition name="product" extends="base.definition">
+        <put-attribute name="content" value="/WEB-INF/jsp/general/product.jsp" />
+    </definition>
+</tiles-definitions>
